@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edu - Завхан аймаг Политехник коллеж</title>
+
+  <!--  favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--     - custom css link  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--   google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!--     - preload images  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+
+</head>
+
+<body id="top">
+  <!--     - #HEADER  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Edu</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">Edu</a>
+
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+			<li class="navbar-item">
+			  <a href="index.html" class="navbar-link" data-nav-toggler>Нүүр</a>
+			</li>
+			<li class="navbar-item">
+			  <a href="profession.html" class="navbar-link" data-nav-toggler>Мэргэжил</a>
+			</li>
+  
+			<li class="navbar-item">
+			  <a href="news.html" class="navbar-link" data-nav-toggler>Мэдээ мэдээлэл</a>
+			</li>
+			<li class="navbar-item">
+			  <a href="products.html" class="navbar-link" data-nav-toggler>Бүтээгдэхүүн</a>
+			</li>
+			<li class="navbar-item">
+			  <a href="#" class="navbar-link" data-nav-toggler>Холбоо барих</a>
+			</li>
+			<li class="navbar-item">
+			  <a href="about.html" class="navbar-link" data-nav-toggler>Бидний тухай</a>
+			</li>
+		  </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="header-action-btn login-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+          <span class="span">Нэвтрэх</span>
+        </a>
+
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <!-- SEARCH BOX -->
+
+  <div class="search-container" data-search-box>
+    <div class="container">
+
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Хайх..." aria-label="Search" class="search-field">
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <article>
+	<!-- - #Products -->
+
+	<section class="section course" id="courses" aria-label="course"
+	>
+	<div class="container">
+		<h2 class="h2 section-title">Манай бүтээгдэхүүнүүд</h2>
+		<ul class="grid-list">
+		<li>
+			<div class="course-card">
+			<figure class="card-banner">
+				<img src="./assets/images/course-1.jpg" width="370" height="270" loading="lazy"
+				alt="Competitive Strategy law for all students" class="img-cover">
+			</figure>
+			<div class="card-actions">
+				<span class="badge">Нэр</span>
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+			</div>
+
+			<div class="card-content">
+				<ul class="card-meta-list">
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+					<span class="card-meta-text">35 үзсэн</span>
+				</li>
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+				</ul>
+				<h3 class="h3">
+				<a href="#" class="card-title">Competitive Strategy law for all students</a>
+				</h3>
+				<div class="rating-wrapper">
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+				<span class="rating-text">(Үнэлгээ)</span>
+				</div>
+				<div class="card-footer">
+				<div class="card-price">
+					<span class="span">290.000.00 ₮</span>
+					<del class="del">390.000.00 ₮</del>
+				</div>
+				</div>
+			</div>
+			</div>
+		</li>
+
+		<li>
+			<div class="course-card">
+
+			<figure class="card-banner">
+				<img src="./assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+				alt="Machine Learning A-Z: Hands-On Python and java" class="img-cover">
+			</figure>
+
+			<div class="card-actions">
+
+				<span class="badge">...</span>
+
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+
+			</div>
+
+			<div class="card-content">
+
+				<ul class="card-meta-list">
+
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+					<span class="card-meta-text">48 үзсэн</span>
+				</li>
+
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+
+				</ul>
+
+				<h3 class="h3">
+				<a href="#" class="card-title">Machine Learning A-Z: Hands-On Python and java</a>
+				</h3>
+
+				<div class="rating-wrapper">
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+				<span class="rating-text">(Үнэлгээ)</span>
+				</div>
+
+				<div class="card-footer">
+				<div class="card-price">
+					<span class="span">10.000.00 ₮</span>
+				</div>
+				</div>
+
+			</div>
+
+			</div>
+		</li>
+
+		<li>
+			<div class="course-card">
+
+			<figure class="card-banner">
+				<img src="./assets/images/course-3.jpg" width="370" height="270" loading="lazy"
+				alt="Achieving Advanced in Insights with Big" class="img-cover">
+			</figure>
+
+			<div class="card-actions">
+
+				<span class="badge">...</span>
+
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+
+			</div>
+
+			<div class="card-content">
+
+				<ul class="card-meta-list">
+
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+					<span class="card-meta-text">80 үзсэн</span>
+				</li>
+
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+
+				</ul>
+
+				<h3 class="h3">
+				<a href="#" class="card-title">Achieving Advanced in Insights with Big</a>
+				</h3>
+
+				<div class="rating-wrapper">
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+				<span class="rating-text">(Үнэлгээ)</span>
+				</div>
+
+				<div class="card-footer">
+				<div class="card-price">
+					<span class="span">459.00 ₮</span>
+					<del class="del">169.00 ₮</del>
+				</div>
+				</div>
+			</div>
+			</div>
+		</li>
+
+		<li>
+			<div class="course-card">
+			<figure class="card-banner">
+				<img src="./assets/images/course-4.jpg" width="370" height="270" loading="lazy"
+				alt="Education Makes A Person A Responsible Citizen" class="img-cover">
+			</figure>
+
+			<div class="card-actions">
+				<span class="badge">...</span>
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+
+			</div>
+
+			<div class="card-content">
+
+				<ul class="card-meta-list">
+
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+					<span class="card-meta-text">31 үзсэн</span>
+				</li>
+
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+
+				</ul>
+
+				<h3 class="h3">
+				<a href="#" class="card-title">Education Makes A Person A Responsible Citizen</a>
+				</h3>
+
+				<div class="rating-wrapper">
+
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+
+				<span class="rating-text">(Үнэлгээ)</span>
+
+				</div>
+
+				<div class="card-footer">
+
+				<div class="card-price">
+					<span class="span">49.00 ₮</span>
+
+					<del class="del">59.00 ₮</del>
+				</div>
+
+				</div>
+
+			</div>
+
+			</div>
+		</li>
+
+		<li>
+			<div class="course-card">
+
+			<figure class="card-banner">
+				<img src="./assets/images/course-5.jpg" width="370" height="270" loading="lazy"
+				alt="Building A Better World One Student At A Time" class="img-cover">
+			</figure>
+
+			<div class="card-actions">
+
+				<span class="badge">...</span>
+
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+
+			</div>
+
+			<div class="card-content">
+
+				<ul class="card-meta-list">
+
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+					<span class="card-meta-text">36 үзсэн</span>
+				</li>
+
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+
+				</ul>
+
+				<h3 class="h3">
+				<a href="#" class="card-title">Building A Better World One Student At A Time</a>
+				</h3>
+
+				<div class="rating-wrapper">
+
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+
+				<span class="rating-text">(Үнэлгээ)</span>
+
+				</div>
+
+				<div class="card-footer">
+
+				<div class="card-price">
+					<span class="span">29.00 ₮</span>
+
+					<del class="del">39.00 ₮</del>
+				</div>
+				</div>
+
+			</div>
+
+			</div>
+		</li>
+
+		<li>
+			<div class="course-card">
+
+			<figure class="card-banner">
+				<img src="./assets/images/course-6.jpg" width="370" height="270" loading="lazy"
+				alt="Education is About Forming Faithful Disciples" class="img-cover">
+			</figure>
+
+			<div class="card-actions">
+
+				<span class="badge">...</span>
+
+				<button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
+				<ion-icon name="heart"></ion-icon>
+				</button>
+
+			</div>
+
+			<div class="card-content">
+
+				<ul class="card-meta-list">
+
+				<li class="card-meta-item">
+					<ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+
+					<span class="card-meta-text">21 үзсэн</span>
+				</li>
+
+				<li class="card-meta-item">
+					<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+					<time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+				</li>
+
+				</ul>
+
+				<h3 class="h3">
+				<a href="#" class="card-title">Education is About Forming Faithful Disciples</a>
+				</h3>
+
+				<div class="rating-wrapper">
+
+				<div class="rating">
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+					<ion-icon name="star"></ion-icon>
+				</div>
+
+				<span class="rating-text">(Үнэлгээ)</span>
+
+				</div>
+
+				<div class="card-footer">
+
+				<div class="card-price">
+					<span class="span">79.00 ₮</span>
+
+					<del class="del">89.00 ₮</del>
+				</div>
+
+				</div>
+
+			</div>
+
+			</div>
+		</li>
+
+		</ul>
+
+		<a href="#" class="btn btn-primary">
+		<span class="span">Бүгдийг харах</span>
+		<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+		</a>
+
+	</div>
+	</section>
+</article>
+</main>
+
+	  <!--     - #BACK TO TOP -->
+
+	  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+		<ion-icon name="arrow-up"></ion-icon>
+	  </a>
+	  <!-- - custom js link -->
+	  <script src="./assets/js/script.js" defer></script>
+	
+	  <!-- - ionicon link -->
+	  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	
+	</body>
+	
+	</html>
